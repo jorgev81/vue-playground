@@ -1,18 +1,8 @@
-<script>
+<script setup>
 import MyCounter from './MyCounter.vue';
 import MyShoppingList from './MyShoppingList.vue';
 import '../styles/main.css';
 
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  },
-  components: {
-    MyCounter,
-    MyShoppingList
-  }
-}
 </script>
 
 <template>
